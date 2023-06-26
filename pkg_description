@@ -1,0 +1,5 @@
+create or replace package transactions_pkg as 
+operation varchar2;
+procedure withdraw(amount number, account_no number);
+procedure deposit(amount number, account_no number);
+end transactions_pkg;
